@@ -7,10 +7,10 @@ class Calculator:
     class stack:
         class node:        ### stack design for our calculator
         # push the position of every ( and pop when ) is found.
-        # This way parentheses are matched
-        # ---  code the rest of the class ---
+               # ---  code the rest of the class ---
         #   It's very similar to the queue in EX9_15
-        #
+        #'
+        # git hub tracing
             def __init__(self, val, nextNode):
                 self.value=val
                 self.nextNode=nextNode
